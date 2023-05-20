@@ -2,6 +2,8 @@
 
 body {
     font-family: 'Ubuntu', sans-serif;
+    /* make --text-gradient a sorta dark grey/white gradient */
+    --text-gradient: linear-gradient(15deg, rgb(137, 134, 134), #272627 10%, rgb(225, 225, 228) 60%);
 }
 
 .text-gradient {
