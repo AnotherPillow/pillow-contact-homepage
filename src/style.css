@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    /* make --text-gradient a sorta dark grey/white gradient */
+    --text-gradient: linear-gradient(15deg, rgb(137, 134, 134), #272627 10%, rgb(225, 225, 228) 60%);
+}
+
+.text-gradient {
+    background-image: var(--text-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400%;
+    background-position: 0%;
+}
